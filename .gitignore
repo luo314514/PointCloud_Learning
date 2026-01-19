@@ -1,0 +1,101 @@
+# =====================
+# OS / Editor
+# =====================
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =====================
+# Python cache / build
+# =====================
+__pycache__/
+*.py[cod]
+*$py.class
+
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# =====================
+# Jupyter
+# =====================
+.ipynb_checkpoints/
+
+# =====================
+# Virtual env / Conda
+# =====================
+.venv/
+venv/
+env/
+conda/
+*.conda
+
+# =====================
+# Logs
+# =====================
+*.log
+logs/
+log/
+wandb/
+runs/
+tb/
+tensorboard/
+
+# =====================
+# Training outputs
+# =====================
+outputs/
+output/
+results/
+result/
+checkpoints/
+checkpoint/
+weights/
+weight/
+*.ckpt
+*.pth
+*.pt
+*.onnx
+
+# =====================
+# Datasets (DO NOT push)
+# =====================
+data/
+dataset/
+datasets/
+Data/
+Datasets/
+
+# common large files
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+*.npy
+*.npz
+*.h5
+*.hdf5
+
+# =====================
+# C/C++ build
+# =====================
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+Makefile
+*.out
+
